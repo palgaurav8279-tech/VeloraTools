@@ -1,0 +1,148 @@
+Build me a modern, fully responsive full-stack web app called **Velora – All your AI tools at one place**.
+
+---
+
+## 🔹 Website Purpose
+Velora is a hub where users can discover, compare, and learn about AI tools. It should feel like a futuristic dashboard, not a boring blog.
+
+---
+
+## 🔹 Features & Pages
+
+### Home Page
+- Hero search bar: “What do you want to do with AI?”
+- Trending tools carousel/grid
+- Category buttons (Text, Image, Video, Coding, Music, Productivity, Business, etc.)
+- Task finder shortcuts (e.g., “Create a logo”, “Write an essay”)
+- Newsletter signup box (connected to backend)
+
+### Discover Tools Page
+- Grid of tool cards (logo, short description, pricing tag, button)
+- Filters: Free/Paid, Popular, Category
+- Search functionality
+
+### Tool Details Page
+- Tool logo + screenshots
+- Full description
+- Pricing info
+- Pros/Cons
+- “Visit Website” button
+- Suggested similar tools
+
+### Compare Page
+- User selects 2 tools → show side-by-side comparison (features, pricing, ratings)
+
+### Community Page
+- Form to submit new AI tools
+- Upvote system
+- Leaderboard of contributors
+- **Submitted tools go to admin approval inbox**
+  - Admin email: `gp6941@vidyagyan.in`
+  - Admin panel page to approve/reject submitted tools
+  - Approved tools appear in Discover Tools page
+
+### Blog/News Page
+- Latest AI news and tutorial articles
+
+### My Toolkit (User Account Section)
+- Users can log in / sign up
+- Save favorite tools to personal toolkit
+
+---
+
+## 🔹 Authentication (like ChatGPT)
+1. **Google Login (OAuth2)**
+2. **Email Login (magic link / OTP)**
+3. **Password Login (with bcrypt hash)**
+
+---
+
+## 🔹 Backend Requirements
+- **Node.js + Express**
+- **Authentication**
+  - Google OAuth2 via `passport-google-oauth20`
+  - Email OTP via `nodemailer` (temporary hashed OTP stored in `pending_otps.json`)
+  - Password login using `bcrypt` (store password hashes, not plain text, in `users.json`)
+- **Session Management** with JWT
+- **File Storage (instead of DB)**
+  - `users.json` → stores all users
+  - `tools.json` → stores all AI tools
+  - `pending_otps.json` → temporary OTPs
+  - `submissions.json` → user-submitted tools awaiting approval
+  - `newsletter.json` → emails for newsletter
+- **Admin Panel**
+  - Route `/admin` where admin logs in (email: `gp6941@vidyagyan.in`)
+  - Page to approve/reject tool submissions
+- **Newsletter**
+  - Newsletter signup form (frontend) → saves emails in `newsletter.json`
+
+---
+
+## 🔹 Design & Frontend
+- Framework: **React + Vite** (or Next.js if easier)
+- Language: **JavaScript only** (⚠️ do NOT use TypeScript)
+- Styling: **TailwindCSS**
+- Animations: **Framer Motion**
+- Dark/Light theme toggle (🌙/☀️) with localStorage
+- UI Style: Dark futuristic dashboard with neon blue + purple highlights, clean fonts (Inter/Poppins)
+- Responsive: Mobile, Tablet, Desktop
+
+---
+
+## 🔹 Special Features
+- AI Tool Recommender: If user types a task (e.g., "make a comic"), recommend tools from `tools.json`
+- Smooth page transitions (fade/slide via Framer Motion)
+- Sticky Navbar with: Home | Discover | Compare | Community | Blog | Toolkit | Dark/Light Toggle
+- Secure password hashing with bcrypt
+- Admin approval system for submitted tools
+- Newsletter backend storage
+- Save & load favorite tools in My Toolkit
+
+---
+
+## 🔹 Resources / Dependencies
+**Frontend**
+- React / Next.js
+- TailwindCSS
+- Framer Motion
+- Axios (for API calls)
+- React Router (if using Vite/React)
+
+**Backend**
+- Express
+- bcrypt
+- jsonwebtoken (JWT)
+- passport, passport-google-oauth20
+- nodemailer
+- fs (file system for JSON DB)
+- cors
+- body-parser
+
+**Files (as mock DBs)**
+- `users.json` → registered users
+- `tools.json` → AI tools data
+- `submissions.json` → user-submitted tools
+- `pending_otps.json` → temporary OTPs
+- `newsletter.json` → emails for newsletter
+
+---
+
+## 🔹 Deliverables
+- Full-stack codebase (frontend + backend, JS only)
+- Clear folder structure:
+velora/
+│
+├── frontend/ (React + Tailwind + Framer Motion)
+├── backend/ (Express + JSON DB)
+│ ├── users.json
+│ ├── tools.json
+│ ├── submissions.json
+│ ├── newsletter.json
+│ └── pending_otps.json
+
+pgsql
+Copy code
+- Complete login/signup flows (Google, OTP, Password)
+- Admin panel for approving tools
+- Newsletter connected to backend
+- Secure password hashing
