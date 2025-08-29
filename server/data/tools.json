@@ -220,5 +220,671 @@
     "tags": ["Marketing", "Content", "Writing", "Business"],
     "createdAt": "2024-01-06T00:00:00.000Z",
     "approved": true
+  },
+  {
+    "id": "dall-e-007",
+    "name": "DALL-E 3",
+    "description": "DALL-E 3 is OpenAI's latest AI image generation model that creates highly detailed and accurate images from text descriptions. It features improved prompt adherence, better text rendering in images, and enhanced safety measures. Integrated with ChatGPT Plus, it offers a seamless experience for creating visual content.",
+    "shortDescription": "OpenAI's advanced AI image generator with improved accuracy and text rendering.",
+    "category": "Image Generation",
+    "pricing": "Paid",
+    "website": "https://openai.com/dall-e-3",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "Text-to-image generation",
+      "High resolution output",
+      "ChatGPT integration",
+      "Enhanced prompt understanding",
+      "Safety filtering",
+      "Commercial usage rights"
+    ],
+    "pros": [
+      "Excellent prompt adherence",
+      "High-quality realistic images",
+      "Integrated with ChatGPT",
+      "Good text rendering in images",
+      "Regular model improvements"
+    ],
+    "cons": [
+      "Requires ChatGPT Plus subscription",
+      "Limited free usage",
+      "Slower generation than some competitors",
+      "Content policy restrictions"
+    ],
+    "rating": 4.7,
+    "usageCount": 11254,
+    "tags": ["Image Generation", "AI Art", "OpenAI", "Creative"],
+    "createdAt": "2024-01-07T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "claude-008",
+    "name": "Claude",
+    "description": "Claude is Anthropic's AI assistant designed to be helpful, harmless, and honest. It excels at complex reasoning, analysis, coding assistance, and creative tasks. With a large context window and strong safety measures, Claude is particularly valued for its thoughtful, nuanced responses and ability to handle long-form content.",
+    "shortDescription": "Anthropic's AI assistant focused on safety, reasoning, and helpful long-form responses.",
+    "category": "Text Generation",
+    "pricing": "Freemium",
+    "website": "https://claude.ai",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "Long context conversations",
+      "Advanced reasoning",
+      "Code analysis and generation",
+      "Document analysis",
+      "Creative writing",
+      "Research assistance"
+    ],
+    "pros": [
+      "Large context window",
+      "Strong safety measures",
+      "Excellent for analysis",
+      "Good code understanding",
+      "Thoughtful responses"
+    ],
+    "cons": [
+      "Limited availability in some regions",
+      "Slower response times",
+      "Conservative content policies",
+      "Limited image generation"
+    ],
+    "rating": 4.6,
+    "usageCount": 9876,
+    "tags": ["AI Assistant", "Reasoning", "Analysis", "Safety"],
+    "createdAt": "2024-01-08T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "grammarly-009",
+    "name": "Grammarly",
+    "description": "Grammarly is an AI-powered writing assistant that helps improve grammar, spelling, clarity, and tone in written communication. It provides real-time suggestions across various platforms and applications, making it an essential tool for professionals, students, and anyone who wants to improve their writing quality.",
+    "shortDescription": "AI writing assistant for grammar, spelling, and style improvement across platforms.",
+    "category": "Content Writing",
+    "pricing": "Freemium",
+    "website": "https://www.grammarly.com",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "Grammar and spell check",
+      "Tone and clarity suggestions",
+      "Plagiarism detection",
+      "Writing style analysis",
+      "Browser extension",
+      "Multi-platform support"
+    ],
+    "pros": [
+      "Works across many platforms",
+      "Real-time suggestions",
+      "Easy to use",
+      "Free version available",
+      "Professional tone analysis"
+    ],
+    "cons": [
+      "Premium features require subscription",
+      "Sometimes overly cautious suggestions",
+      "Limited creative writing support",
+      "Privacy concerns with cloud processing"
+    ],
+    "rating": 4.4,
+    "usageCount": 18392,
+    "tags": ["Writing", "Grammar", "Editing", "Productivity"],
+    "createdAt": "2024-01-09T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "stable-diffusion-010",
+    "name": "Stable Diffusion",
+    "description": "Stable Diffusion is an open-source AI image generation model that creates images from text descriptions. It offers high-quality results with the flexibility of local installation or cloud-based usage. Popular among developers and artists for its customization options and community-driven improvements.",
+    "shortDescription": "Open-source AI image generator with high customization and local deployment options.",
+    "category": "Image Generation",
+    "pricing": "Free",
+    "website": "https://stability.ai",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "Text-to-image generation",
+      "Open source model",
+      "Local deployment option",
+      "Custom model training",
+      "API access",
+      "Community extensions"
+    ],
+    "pros": [
+      "Free and open source",
+      "Highly customizable",
+      "No usage limits",
+      "Active community",
+      "Can run locally"
+    ],
+    "cons": [
+      "Requires technical setup",
+      "Hardware requirements for local use",
+      "Learning curve for optimization",
+      "Safety filtering varies"
+    ],
+    "rating": 4.5,
+    "usageCount": 7645,
+    "tags": ["Open Source", "Image Generation", "Customizable", "Local"],
+    "createdAt": "2024-01-10T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "replit-agent-011",
+    "name": "Replit Agent",
+    "description": "Replit Agent is an AI-powered coding assistant that can build entire applications, debug code, and manage development workflows. It operates autonomously to handle complex programming tasks, from setting up databases to deploying applications, making it an invaluable tool for developers at all levels.",
+    "shortDescription": "Autonomous AI coding assistant that builds applications and manages development workflows.",
+    "category": "Code Generation",
+    "pricing": "Paid",
+    "website": "https://replit.com/agent",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "Full application development",
+      "Autonomous coding",
+      "Database management",
+      "Deployment automation",
+      "Multi-language support",
+      "Real-time collaboration"
+    ],
+    "pros": [
+      "Builds complete applications",
+      "Handles complex workflows",
+      "Integrated development environment",
+      "Automatic deployment",
+      "Great for learning"
+    ],
+    "cons": [
+      "Subscription required",
+      "Credit-based usage",
+      "Learning curve for optimization",
+      "Dependent on Replit platform"
+    ],
+    "rating": 4.8,
+    "usageCount": 3421,
+    "tags": ["Coding", "Autonomous", "Development", "Replit"],
+    "createdAt": "2024-01-11T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "elevenlabs-012",
+    "name": "ElevenLabs",
+    "description": "ElevenLabs provides AI voice synthesis technology that creates natural-sounding speech from text. With advanced voice cloning capabilities and emotional control, it's widely used for audiobook narration, podcast creation, voiceovers, and multimedia content production.",
+    "shortDescription": "AI voice synthesis with natural speech generation and voice cloning capabilities.",
+    "category": "Audio Generation",
+    "pricing": "Freemium",
+    "website": "https://elevenlabs.io",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "Text-to-speech conversion",
+      "Voice cloning",
+      "Emotional voice control",
+      "Multiple languages",
+      "API integration",
+      "High-quality audio output"
+    ],
+    "pros": [
+      "Highly realistic voices",
+      "Voice cloning capability",
+      "Multiple language support",
+      "Easy API integration",
+      "Good free tier"
+    ],
+    "cons": [
+      "Credit-based pricing",
+      "Ethical concerns with voice cloning",
+      "Limited free usage",
+      "Processing time for long content"
+    ],
+    "rating": 4.5,
+    "usageCount": 6789,
+    "tags": ["Voice", "Audio", "TTS", "Cloning"],
+    "createdAt": "2024-01-12T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "perplexity-013",
+    "name": "Perplexity AI",
+    "description": "Perplexity AI is an AI-powered search engine that provides accurate, real-time answers with source citations. It combines the power of large language models with live web search capabilities to deliver comprehensive, up-to-date information on any topic with transparent source attribution.",
+    "shortDescription": "AI search engine providing accurate answers with real-time web search and citations.",
+    "category": "Research",
+    "pricing": "Freemium",
+    "website": "https://www.perplexity.ai",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "Real-time web search",
+      "Source citations",
+      "Follow-up questions",
+      "Multiple search modes",
+      "Mobile app",
+      "API access"
+    ],
+    "pros": [
+      "Always up-to-date information",
+      "Transparent source attribution",
+      "Fast response times",
+      "Good free tier",
+      "Mobile accessibility"
+    ],
+    "cons": [
+      "Limited advanced features on free tier",
+      "Occasional source quality issues",
+      "Less creative than conversational AI",
+      "Subscription for unlimited usage"
+    ],
+    "rating": 4.6,
+    "usageCount": 8934,
+    "tags": ["Search", "Research", "Citations", "Real-time"],
+    "createdAt": "2024-01-13T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "loom-ai-014",
+    "name": "Loom AI",
+    "description": "Loom AI enhances video communication by automatically generating titles, summaries, and action items from recorded videos. It helps teams communicate more effectively by making video content searchable and actionable, perfect for async work and team collaboration.",
+    "shortDescription": "AI-enhanced video communication with automatic summaries and action items.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "website": "https://www.loom.com",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "Video transcription",
+      "Automatic summaries",
+      "Action item extraction",
+      "Smart titles",
+      "Search functionality",
+      "Team collaboration"
+    ],
+    "pros": [
+      "Seamless video workflow",
+      "Time-saving summaries",
+      "Good team features",
+      "Easy to use",
+      "Mobile support"
+    ],
+    "cons": [
+      "Limited to video content",
+      "Subscription for advanced AI features",
+      "Accuracy depends on audio quality",
+      "Privacy considerations"
+    ],
+    "rating": 4.2,
+    "usageCount": 4567,
+    "tags": ["Video", "Productivity", "Collaboration", "Summaries"],
+    "createdAt": "2024-01-14T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "mubert-015",
+    "name": "Mubert",
+    "description": "Mubert is an AI music generation platform that creates original, royalty-free music for various purposes. Using AI algorithms, it generates music tracks in different genres and moods, perfect for content creators, businesses, and developers who need background music.",
+    "shortDescription": "AI music generator creating royalty-free tracks for content and commercial use.",
+    "category": "Audio Generation",
+    "pricing": "Freemium",
+    "website": "https://mubert.com",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "AI music generation",
+      "Royalty-free licensing",
+      "Multiple genres",
+      "Custom duration",
+      "API integration",
+      "Commercial use rights"
+    ],
+    "pros": [
+      "Royalty-free music",
+      "Wide variety of styles",
+      "API access",
+      "Commercial licensing",
+      "Quick generation"
+    ],
+    "cons": [
+      "Limited customization",
+      "Credit-based pricing",
+      "Quality varies by genre",
+      "Not suitable for complex compositions"
+    ],
+    "rating": 4.1,
+    "usageCount": 3892,
+    "tags": ["Music", "Royalty-Free", "Background", "Commercial"],
+    "createdAt": "2024-01-15T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "copy-ai-016",
+    "name": "Copy.ai",
+    "description": "Copy.ai is an AI-powered copywriting tool that helps marketers and businesses create engaging content quickly. From social media posts to email campaigns, it provides templates and AI assistance for various marketing materials, helping scale content creation efforts.",
+    "shortDescription": "AI copywriting tool for marketing content, social media, and business communications.",
+    "category": "Content Writing",
+    "pricing": "Freemium",
+    "website": "https://www.copy.ai",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "Marketing copy templates",
+      "Social media content",
+      "Email campaign creation",
+      "Blog post generation",
+      "Ad copy optimization",
+      "Team collaboration"
+    ],
+    "pros": [
+      "User-friendly interface",
+      "Variety of templates",
+      "Good for marketing teams",
+      "Free tier available",
+      "Fast content generation"
+    ],
+    "cons": [
+      "Limited advanced customization",
+      "Quality varies by template",
+      "Subscription for full features",
+      "May need editing for brand voice"
+    ],
+    "rating": 4.2,
+    "usageCount": 7123,
+    "tags": ["Copywriting", "Marketing", "Social Media", "Templates"],
+    "createdAt": "2024-01-16T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "descript-017",
+    "name": "Descript",
+    "description": "Descript is an all-in-one audio and video editing platform powered by AI. It allows you to edit audio and video files by editing text, offers AI voice generation, removes background noise, and provides collaborative features for content teams.",
+    "shortDescription": "AI-powered audio and video editing platform with text-based editing interface.",
+    "category": "Video Generation",
+    "pricing": "Freemium",
+    "website": "https://www.descript.com",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "Text-based editing",
+      "AI voice generation",
+      "Noise reduction",
+      "Automatic transcription",
+      "Collaborative editing",
+      "Screen recording"
+    ],
+    "pros": [
+      "Intuitive text-based editing",
+      "AI voice cloning",
+      "Good collaboration features",
+      "Automatic transcription",
+      "All-in-one solution"
+    ],
+    "cons": [
+      "Learning curve for traditional editors",
+      "Subscription for advanced features",
+      "Processing time for large files",
+      "Limited advanced video effects"
+    ],
+    "rating": 4.4,
+    "usageCount": 5432,
+    "tags": ["Video Editing", "Audio", "Transcription", "Collaborative"],
+    "createdAt": "2024-01-17T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "canva-ai-018",
+    "name": "Canva AI",
+    "description": "Canva's AI-powered design features help create professional graphics, presentations, and visual content. With Magic Write for text generation, Background Remover, and AI-powered design suggestions, it makes design accessible to everyone regardless of skill level.",
+    "shortDescription": "AI-enhanced design platform for creating graphics, presentations, and visual content.",
+    "category": "Design",
+    "pricing": "Freemium",
+    "website": "https://www.canva.com/ai",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "AI design suggestions",
+      "Magic Write text generation",
+      "Background removal",
+      "Brand kit integration",
+      "Template customization",
+      "Team collaboration"
+    ],
+    "pros": [
+      "User-friendly interface",
+      "Extensive template library",
+      "AI-powered suggestions",
+      "Good free tier",
+      "Team collaboration features"
+    ],
+    "cons": [
+      "Limited customization for complex designs",
+      "Subscription for advanced AI features",
+      "Can produce generic-looking designs",
+      "Export limitations on free tier"
+    ],
+    "rating": 4.3,
+    "usageCount": 12678,
+    "tags": ["Design", "Graphics", "Templates", "Collaboration"],
+    "createdAt": "2024-01-18T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "writesonic-019",
+    "name": "Writesonic",
+    "description": "Writesonic is an AI writing platform that helps create various types of content including articles, ads, emails, and website copy. With features like AI article writer, paraphrasing tool, and ChatSonic for conversational AI, it's designed for marketers and content creators.",
+    "shortDescription": "AI writing platform for articles, marketing copy, and conversational AI assistance.",
+    "category": "Content Writing",
+    "pricing": "Freemium",
+    "website": "https://writesonic.com",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "Article and blog writing",
+      "Ad copy generation",
+      "Email marketing content",
+      "ChatSonic AI chat",
+      "Paraphrasing tools",
+      "SEO optimization"
+    ],
+    "pros": [
+      "Variety of writing tools",
+      "Good for marketing content",
+      "ChatSonic for conversations",
+      "SEO-friendly output",
+      "Free tier available"
+    ],
+    "cons": [
+      "Quality varies by template",
+      "Limited free usage",
+      "May need significant editing",
+      "Overwhelming number of options"
+    ],
+    "rating": 4.1,
+    "usageCount": 6234,
+    "tags": ["Writing", "Marketing", "SEO", "ChatBot"],
+    "createdAt": "2024-01-19T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "gamma-020",
+    "name": "Gamma",
+    "description": "Gamma is an AI-powered presentation maker that creates professional slides from simple text prompts. It combines the power of AI with intuitive design tools to help users create engaging presentations, documents, and webpages without design expertise.",
+    "shortDescription": "AI presentation maker that creates professional slides from text prompts.",
+    "category": "Presentation",
+    "pricing": "Freemium",
+    "website": "https://gamma.app",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "AI slide generation",
+      "Text-to-presentation",
+      "Professional templates",
+      "Interactive elements",
+      "Real-time collaboration",
+      "Export options"
+    ],
+    "pros": [
+      "Quick presentation creation",
+      "Professional-looking results",
+      "No design skills required",
+      "Good template variety",
+      "Collaborative features"
+    ],
+    "cons": [
+      "Limited customization depth",
+      "Subscription for advanced features",
+      "Template-based limitations",
+      "May need manual refinement"
+    ],
+    "rating": 4.4,
+    "usageCount": 4765,
+    "tags": ["Presentations", "Design", "Templates", "Business"],
+    "createdAt": "2024-01-20T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "zapier-021",
+    "name": "Zapier AI",
+    "description": "Zapier AI enhances workflow automation with intelligent triggers, data processing, and decision-making capabilities. It helps create sophisticated automation workflows that can understand context, process natural language, and make smart decisions about data routing and transformations.",
+    "shortDescription": "AI-enhanced workflow automation platform for connecting apps and automating tasks.",
+    "category": "Automation",
+    "pricing": "Freemium",
+    "website": "https://zapier.com",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "AI-powered automation",
+      "App integrations",
+      "Smart data processing",
+      "Natural language triggers",
+      "Conditional logic",
+      "Error handling"
+    ],
+    "pros": [
+      "Thousands of app integrations",
+      "AI-enhanced decision making",
+      "User-friendly interface",
+      "Reliable automation",
+      "Good free tier"
+    ],
+    "cons": [
+      "Can get expensive with usage",
+      "Learning curve for complex workflows",
+      "Debugging can be challenging",
+      "Some integrations limited"
+    ],
+    "rating": 4.5,
+    "usageCount": 8765,
+    "tags": ["Automation", "Integration", "Workflow", "Productivity"],
+    "createdAt": "2024-01-21T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "tableau-ai-022",
+    "name": "Tableau AI",
+    "description": "Tableau's AI features include Einstein Discovery for automated insights, Ask Data for natural language querying, and Explain Data for understanding visualization patterns. It makes data analysis accessible to non-technical users while providing powerful insights for data professionals.",
+    "shortDescription": "AI-powered data visualization and analytics platform with natural language querying.",
+    "category": "Data Analysis",
+    "pricing": "Paid",
+    "website": "https://www.tableau.com",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "Natural language queries",
+      "Automated insights",
+      "Smart visualizations",
+      "Pattern detection",
+      "Predictive analytics",
+      "Collaborative dashboards"
+    ],
+    "pros": [
+      "Powerful data visualization",
+      "AI-driven insights",
+      "Enterprise-grade security",
+      "Extensive data connectors",
+      "Strong community"
+    ],
+    "cons": [
+      "High pricing",
+      "Steep learning curve",
+      "Resource intensive",
+      "Complex licensing model"
+    ],
+    "rating": 4.3,
+    "usageCount": 5467,
+    "tags": ["Data Analysis", "Visualization", "Business Intelligence", "Enterprise"],
+    "createdAt": "2024-01-22T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "synthesia-023",
+    "name": "Synthesia",
+    "description": "Synthesia is an AI video generation platform that creates professional videos with AI avatars from text scripts. It's widely used for training videos, marketing content, and educational materials, offering multiple languages and customizable avatars for diverse content needs.",
+    "shortDescription": "AI video generator with realistic avatars for training and marketing content.",
+    "category": "Video Generation",
+    "pricing": "Paid",
+    "website": "https://www.synthesia.io",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "AI avatar creation",
+      "Text-to-video conversion",
+      "Multiple languages",
+      "Custom avatars",
+      "Brand templates",
+      "API integration"
+    ],
+    "pros": [
+      "Professional video quality",
+      "Multilingual support",
+      "Cost-effective video production",
+      "Easy script-to-video process",
+      "Custom avatar options"
+    ],
+    "cons": [
+      "Subscription required",
+      "Limited avatar expressions",
+      "Can appear artificial",
+      "Processing time for videos"
+    ],
+    "rating": 4.2,
+    "usageCount": 4321,
+    "tags": ["Video", "Avatars", "Training", "Multilingual"],
+    "createdAt": "2024-01-23T00:00:00.000Z",
+    "approved": true
+  },
+  {
+    "id": "cursor-024",
+    "name": "Cursor",
+    "description": "Cursor is an AI-first code editor built specifically for pair programming with AI. It offers advanced code completion, natural language editing, and intelligent refactoring capabilities. Designed to enhance developer productivity through seamless AI integration.",
+    "shortDescription": "AI-first code editor designed for seamless AI pair programming and development.",
+    "category": "Code Generation",
+    "pricing": "Freemium",
+    "website": "https://cursor.sh",
+    "logo": "",
+    "screenshots": [],
+    "features": [
+      "AI pair programming",
+      "Natural language code editing",
+      "Intelligent autocomplete",
+      "Code refactoring",
+      "Multi-language support",
+      "Terminal integration"
+    ],
+    "pros": [
+      "Built specifically for AI coding",
+      "Natural language commands",
+      "Fast and responsive",
+      "Good VS Code compatibility",
+      "Strong AI integration"
+    ],
+    "cons": [
+      "Relatively new platform",
+      "Limited extensions compared to VS Code",
+      "Subscription for advanced features",
+      "Learning curve for AI features"
+    ],
+    "rating": 4.6,
+    "usageCount": 2987,
+    "tags": ["Code Editor", "AI Coding", "Development", "Productivity"],
+    "createdAt": "2024-01-24T00:00:00.000Z",
+    "approved": true
   }
 ]

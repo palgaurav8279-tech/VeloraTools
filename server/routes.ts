@@ -245,18 +245,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  app.get('/api/tools/:id', async (req, res) => {
-    try {
-      const tool = await storage.getTool(req.params.id);
-      if (!tool || !tool.approved) {
-        return res.status(404).json({ message: 'Tool not found' });
-      }
-      res.json(tool);
-    } catch (error) {
-      res.status(500).json({ message: 'Failed to fetch tool' });
-    }
-  });
-
   app.get('/api/tools/trending', async (req, res) => {
     try {
       const tools = await storage.getApprovedTools();
@@ -266,6 +254,18 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json(trending);
     } catch (error) {
       res.status(500).json({ message: 'Failed to fetch trending tools' });
+    }
+  });
+
+  app.get('/api/tools/:id', async (req, res) => {
+    try {
+      const tool = await storage.getTool(req.params.id);
+      if (!tool || !tool.approved) {
+        return res.status(404).json({ message: 'Tool not found' });
+      }
+      res.json(tool);
+    } catch (error) {
+      res.status(500).json({ message: 'Failed to fetch tool' });
     }
   });
 
